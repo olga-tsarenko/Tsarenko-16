@@ -30,6 +30,7 @@ $('.nav-tab a').on('click', function (e) {
     var tab = $(this).attr('href');
     $('.tab').not(tab).css({'display': 'none'});
     $(tab).fadeIn(600);
+
 });
 
 //tooltip//

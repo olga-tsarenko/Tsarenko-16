@@ -109,19 +109,17 @@
         .items{
             margin: 0 auto;
             display: flex;
-            div{
+            .tab{
                 background-color: #f8f8f8;
                 border: 1px solid #e7e7e7;
                 border-radius: 4px;
-                width: 25%;
+                width: 20%;
                 padding: 50px;
-                margin: 0 5px;
+                margin: auto;
                 font-size: 70px;
             }
         }
-        .current-tab{
 
-        }
 
     }
 
