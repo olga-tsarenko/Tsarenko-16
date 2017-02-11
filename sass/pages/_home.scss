@@ -1,0 +1,162 @@
+.wrap-accordeon {
+    padding: 50px 10px;
+    text-align: center;
+    ul {
+        text-align: justify;
+        background-color: #f8f8f8;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+
+        list-style-type: none;
+        li {
+            cursor: pointer;
+            h2 {
+                color: #777;
+                font-size: 20px;
+                &:hover, &.active {
+                    color: black;
+                }
+            }
+            div {
+                display: none;
+                font-size: 16px;
+                color: #777;
+                margin-left: 20px;
+            }
+
+        }
+
+        .active {
+            display: block;
+
+        }
+    }
+}
+
+.wrap-dial {
+    padding: 50px 10px;
+    text-align: center;
+    position: relative;
+    form {
+        margin: 0 auto;
+        width: 300px;
+        height: 150px;
+        background-color: #f8f8f8;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        input {
+            padding: 5px 50px 5px 5px;
+            display: block;
+            margin: 15px 0 0 25px;
+        }
+    }
+    .modal {
+        width: 600px;
+        height: 350px;
+        position: fixed;
+        z-index: 10;
+        opacity: 0;
+        top: 20%;
+        bottom: 20%;
+        margin: 0 auto;
+        background-color: antiquewhite;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        display: none;
+
+        p {
+            text-align: center;
+            margin: auto;
+            font-size: 30px;
+        }
+        .close {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            top: 10px;
+            right: 10px;
+            cursor: pointer;
+        }
+    }
+}
+
+.wrap-tabs {
+    padding: 50px 10px;
+    text-align: center;
+    .tabs {
+        ul{
+            margin: 20px 0;
+            padding: 0;
+            list-style-type: none;
+            li{
+                display: inline-block;
+                margin: 0 15px;
+                a{
+                    display: inline-block;
+                    padding: 15px 30px;
+                    font-size: 20px;
+                    background-color: #f8f8f8;
+                    border: 1px solid #e7e7e7;
+                    border-radius:30px;
+                    color: #777;
+
+                }
+                .active{
+                    background-color: navajowhite;
+                }
+            }
+        }
+        .items{
+            margin: 0 auto;
+            display: flex;
+            div{
+                background-color: #f8f8f8;
+                border: 1px solid #e7e7e7;
+                border-radius: 4px;
+                width: 25%;
+                padding: 50px;
+                margin: 0 5px;
+                font-size: 70px;
+            }
+        }
+        .current-tab{
+
+        }
+
+    }
+
+}
+
+.wrap-tooltip{
+    padding: 50px 10px;
+    text-align: center;
+    form {
+       padding: 100px 0;
+        background-color: #f8f8f8;
+        border: 1px solid #e7e7e7;
+        border-radius: 4px;
+        position: relative;
+        input {
+            text-align: left;
+            padding: 10px 50px 10px 5px;
+            border: 1px solid #e7e7e7;
+            border-radius: 4px;
+
+
+        }
+        .tool{
+            width: 200px;
+            height: 50px;
+            border-radius: 4px;
+            background-color: navajowhite;
+            position: absolute;
+            top:50%;
+            left: 50%;
+            display: none;
+            opacity: 0;
+        }
+
+
+
+    }
+}
